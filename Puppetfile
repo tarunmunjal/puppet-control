@@ -18,25 +18,25 @@ forge "https://forge.puppet.com"
 
 mod 'stdlib',
   :git    => 'git@github.com:tarunmunjal/puppetlabs-stdlib.git'
-  :branch => 'production'
+  :branch => 'master'
 mod 'inifile',
   :git     =>  'git@github.com:tarunmunjal/puppetlabs-inifile.git'
-  :branch  =>  'production'
+  :branch  =>  'master'
 mod 'powershell',
   :git     =>  'git@github.com:tarunmunjal/puppetlabs-powershell.git'
-  :branch  =>  'production'
+  :branch  =>  'master'
 mod 'dsc',
   :git     =>  'git@github.com:tarunmunjal/puppetlabs-dsc.git'
-  :branch  =>  'production'
+  :branch  =>  'master'
 mod 'concat',
   :git     =>  'git@github.com:tarunmunjal/puppetlabs-concat.git'
-  :branch  =>  'production'
+  :branch  =>  'master'
 mod 'java',
   :git     =>  'git@github.com:tarunmunjal/puppetlabs-java.git'
-  :branch  =>  'production'
-mod 'role',
-  :git     =>  'git@github.com:tarunmunjal/puppet-role.git'
-  :branch  =>  'production'
-mod 'profile',
-  :git     =>  'git@github.com:tarunmunjal/puppet-profile.git'
-  :branch  =>  'production'
+  :branch  =>  'master'
+#mod 'role',
+#  :git     =>  'git@github.com:tarunmunjal/puppet-role.git'
+#  :branch  =>  'master'
+#mod 'profile',
+#  :git     =>  'git@github.com:tarunmunjal/puppet-profile.git'
+#  :branch  =>  'master'
