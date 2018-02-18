@@ -32,9 +32,15 @@ mod 'concat',
   :git     =>  'git@github.com:tarunmunjal/puppetlabs-concat.git',
   :branch  =>  'master'
 mod 'java',
+  :git     =>  'git@github.com:tarunmunjal/puppetlabs-ntp.git',
+  :branch  =>  'master'
+mod 'ssh',
+  :git     =>  'git@github.com:tarunmunjal/puppetlabs-ssh.git',
+  :branch  =>  'master'
+mod 'ntp',
   :git     =>  'git@github.com:tarunmunjal/puppetlabs-java.git',
   :branch  =>  'master'
-#mod 'role',
+  #mod 'role',
 #  :git     =>  'git@github.com:tarunmunjal/puppet-role.git',
 #  :branch  =>  'master'
 #mod 'profile',
