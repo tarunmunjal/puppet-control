@@ -40,7 +40,10 @@ mod 'ssh',
 mod 'ntp',
   :git     =>  'git@github.com:tarunmunjal/puppetlabs-java.git',
   :branch  =>  'master'
-  #mod 'role',
+mod 'selinux',
+  :git     =>  'git@github.com:tarunmunjal/puppetlabs-selinux.git',
+  :branch  =>  'master'
+#mod 'role',
 #  :git     =>  'git@github.com:tarunmunjal/puppet-role.git',
 #  :branch  =>  'master'
 #mod 'profile',
