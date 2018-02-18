@@ -34,3 +34,9 @@ mod 'concat',
 mod 'java',
   :git     =>  'git@github.com:tarunmunjal/puppetlabs-java.git'
   :branch  =>  'production'
+mod 'role',
+  :git     =>  'git@github.com:tarunmunjal/puppet-role.git'
+  :branch  =>  'production'
+mod 'profile',
+  :git     =>  'git@github.com:tarunmunjal/puppet-profile.git'
+  :branch  =>  'production'
