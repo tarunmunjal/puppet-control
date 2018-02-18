@@ -17,26 +17,26 @@ forge "https://forge.puppet.com"
 #  :branch => 'docs_experiment'
 
 mod 'stdlib',
-  :git    => 'git@github.com:tarunmunjal/puppetlabs-stdlib.git'
+  :git    => 'git@github.com:tarunmunjal/puppetlabs-stdlib.git',
   :branch => 'master'
 mod 'inifile',
-  :git     =>  'git@github.com:tarunmunjal/puppetlabs-inifile.git'
+  :git     =>  'git@github.com:tarunmunjal/puppetlabs-inifile.git',
   :branch  =>  'master'
 mod 'powershell',
-  :git     =>  'git@github.com:tarunmunjal/puppetlabs-powershell.git'
+  :git     =>  'git@github.com:tarunmunjal/puppetlabs-powershell.git',
   :branch  =>  'master'
 mod 'dsc',
-  :git     =>  'git@github.com:tarunmunjal/puppetlabs-dsc.git'
+  :git     =>  'git@github.com:tarunmunjal/puppetlabs-dsc.git',
   :branch  =>  'master'
 mod 'concat',
-  :git     =>  'git@github.com:tarunmunjal/puppetlabs-concat.git'
+  :git     =>  'git@github.com:tarunmunjal/puppetlabs-concat.git',
   :branch  =>  'master'
 mod 'java',
-  :git     =>  'git@github.com:tarunmunjal/puppetlabs-java.git'
+  :git     =>  'git@github.com:tarunmunjal/puppetlabs-java.git',
   :branch  =>  'master'
 #mod 'role',
-#  :git     =>  'git@github.com:tarunmunjal/puppet-role.git'
+#  :git     =>  'git@github.com:tarunmunjal/puppet-role.git',
 #  :branch  =>  'master'
-#mod 'profile',
-#  :git     =>  'git@github.com:tarunmunjal/puppet-profile.git'
-#  :branch  =>  'master'
+mod 'profile',
+  :git     =>  'git@github.com:tarunmunjal/puppet-profile.git',
+  :branch  =>  'master'
