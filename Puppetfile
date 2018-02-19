@@ -43,9 +43,12 @@ mod 'ntp',
 mod 'selinux',
   :git     =>  'git@github.com:tarunmunjal/puppetlabs-selinux.git',
   :branch  =>  'master'
-#mod 'role',
-#  :git     =>  'git@github.com:tarunmunjal/puppet-role.git',
-#  :branch  =>  'master'
-#mod 'profile',
-#  :git     =>  'git@github.com:tarunmunjal/puppet-profile.git',
-#  :branch  =>  'master'
+mod 'role',
+  :git     =>  'git@github.com:tarunmunjal/puppet-role.git',
+  :branch  =>  'master'
+mod 'profile',
+  :git     =>  'git@github.com:tarunmunjal/puppet-profile.git',
+  :branch  =>  'master'
+mod 'apache',
+  :git     =>  'git@github.com:tarunmunjal/puppetlabs-apache.git',
+  :branch  =>  'master'
